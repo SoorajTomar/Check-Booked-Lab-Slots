@@ -1,8 +1,5 @@
 @if (@CodeSection == @Batch) @then
-
-
 @echo off
-
 rem Use %SendKeys% to send keys to the keyboard buffer
 set SendKeys=CScript //nologo //E:JScript "%~F0"
 START CHROME "https://academia.srmist.edu.in/#Form:My_Lab_Bookings"
